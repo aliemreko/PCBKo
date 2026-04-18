@@ -151,25 +151,6 @@ You can configure the following `.env` variables:
 - [ ] Plugin architecture for KiCad.
 - [ ] Support for high-speed differential pairs.
 
-## 📢 Open Source Release
-If you want to publish a clean open source version without unwanted repository history:
-
-1. Create a new repository such as `PCBKo` on GitHub.
-2. In your local folder, create a fresh branch with only the current files:
-   ```bash
-git checkout --orphan clean-release
-git reset --hard
-git add .
-git commit -m "Initial clean release of PCBKo"
-```
-3. Point to the new GitHub remote and push:
-   ```bash
-git remote add new-origin https://github.com/yourusername/PCBKo.git
-git push -u new-origin clean-release:main --force
-```
-
-If you need to preserve the old repository name while removing sensitive history, use a tool like `git filter-repo` or `BFG Repo-Cleaner` instead of pushing the full old history.
-
 ## ⚠️ Disclaimer
 This tool is intended for rapid prototyping and educational purposes. Always perform manual design rule checks (DRC) and electrical rule checks (ERC) in KiCad before ordering physical boards.
 
