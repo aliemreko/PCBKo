@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.erc
+skidl.log
+skidl.erc
+.env
+output/
+*.kicad_prl
+*.kicad_pro
+*.kicad_pcb
+*.kicad_sch
+*.bak
+*.swp
+.DS_Store

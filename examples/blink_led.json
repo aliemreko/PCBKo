@@ -1,0 +1,22 @@
+{
+  "name": "blink_led",
+  "description": "5V girişle çalışan basit LED sürücü devresi, koruma dirençli",
+  "constraints": [
+    "2 katmanlı PCB",
+    "Delik içi veya SMD fark etmez ama yaygın footprint kullan",
+    "Maliyet düşük olsun"
+  ],
+  "io_requirements": [
+    "VIN 5V",
+    "GND",
+    "LED çıkışı"
+  ],
+  "preferred_parts": [
+    "LM358",
+    "2N3904",
+    "1k resistor",
+    "LED 0603"
+  ],
+  "board_outline": "40mm x 30mm",
+  "layer_count": 2
+}
