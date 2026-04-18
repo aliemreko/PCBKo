@@ -3,7 +3,7 @@
 Version 0.1
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-0.1-blue.svg)](https://github.com/yourusername/PCBKo)
+[![Version](https://img.shields.io/badge/version-0.1-blue.svg)](https://github.com/aliemreko/PCBKo)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![DeepSeek](https://img.shields.io/badge/AI-DeepSeek--V3-green.svg)](https://deepseek.com/)
 
@@ -14,13 +14,15 @@ PCBKo is an open source PCB design assistant that transforms natural language re
 ## 📖 Table of Contents
 - [Overview](#-overview)
 - [Key Features](#-key-features)
+- [Screenshots](#-screenshots)
 - [Architecture](#-architecture)
-- [Getting Started](#-getting-started)
+- [Installation & Usage](#-installation--usage)
 - [Configuration](#-configuration)
 - [Project Structure](#-project-structure)
 - [Technical Details](#-technical-details)
 - [Roadmap](#-roadmap)
 - [Disclaimer](#-disclaimer)
+- [License](#-license)
 
 ---
 
@@ -45,7 +47,7 @@ The screenshots below show the app interface and generated KiCad output.
 
 > Note: screenshot files are available in the repository root as `11.png`, `12.png`, and `13.png`.
 
-## �📐 Architecture
+## 📐 Architecture
 ```mermaid
 graph TD
     A[User Input] --> B[Tkinter GUI]
@@ -75,7 +77,7 @@ graph TD
 ### Installation
 1. **Clone the repository:**
    ```bash
-git clone https://github.com/yourusername/PCBKo.git
+git clone https://github.com/aliemreko/PCBKo.git
 cd PCBKo
 ```
 
